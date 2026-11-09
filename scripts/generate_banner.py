@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 generate_banner.py
-Generates dark.svg and light.svg animated GitHub profile banners for Rahat69x.
+Generates dark.svg and light.svg animated GitHub profile banners for rahat4528.
 Implements:
 1. Exact head+shoulders cropping and preprocessing (autocontrast + 1.3x contrast + unsharp mask)
 2. Background segmentation via GrabCut with hard-cleared error bleed for dark mode
@@ -112,7 +112,7 @@ INFO_ROWS = [
     ("Grid.Mail", "contact.rahat69x@gmail.com"),
     ("Grid.Portfolio", "rahat69x.dev"),
     ("Grid.LinkedIn", "linkedin.com/in/rahat69x"),
-    ("Grid.GitHub", "github.com/Rahat69x"),
+    ("Grid.GitHub", "github.com/rahat4528"),
     ("Grid.Facebook", "facebook.com/rahat69x"),
 ]
 
@@ -553,7 +553,7 @@ def build_banner_svg(theme_name, runs, intro_groups, drift_bands, band_drifts,
     pill_x = right_x + right_w - pill_w - 20
     pill_y = right_y + 8
     svg.append(f'  <rect x="{pill_x}" y="{pill_y}" width="{pill_w}" height="24" rx="12" fill="{t["pill_bg"]}" stroke="{t["pill_border"]}" stroke-width="1"/>')
-    svg.append(f'  <text x="{pill_x + pill_w//2}" y="{pill_y + 16}" text-anchor="middle" class="pill-text">Rahat69x</text>')
+    svg.append(f'  <text x="{pill_x + pill_w//2}" y="{pill_y + 16}" text-anchor="middle" class="pill-text">rahat4528</text>')
     
     svg.append(f'  <line x1="{right_x + 20}" y1="{right_y + 36}" x2="{right_x + right_w - 20}" y2="{right_y + 36}" stroke="{t["border"]}" stroke-width="1"/>')
 
@@ -602,7 +602,7 @@ def build_banner_svg(theme_name, runs, intro_groups, drift_bands, band_drifts,
 # ---------------------------------------------------------------------------
 def main():
     print("=================================================================")
-    print("  Rahat69x GitHub Profile Banner Generator (Phase 1)             ")
+    print("  rahat4528 GitHub Profile Banner Generator (Phase 1)             ")
     print("=================================================================")
     
     if not os.path.exists(PHOTO_PATH):
