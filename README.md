@@ -31,3 +31,12 @@ Satisfaction of creating functional software solutions drew me to CSE 💫<br><b
 | **DevOps & Engineering** | Docker, Docker Compose, Vercel, Railway, Render, PowerBI, Git, GitHub Actions, CMake, Make, ESLint, Prettier, Pytest, APScheduler, Cryptography |
 
 </details>
+
+<br>
+
+## 🐍 Contribution Activity:
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rahat4528/rahat4528/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rahat4528/rahat4528/output/github-contribution-grid-snake.svg" />
+  <img alt="rahat4528 Contribution Snake" src="https://raw.githubusercontent.com/rahat4528/rahat4528/output/github-contribution-grid-snake-dark.svg" width="100%" />
+</picture>
